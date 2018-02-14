@@ -4,7 +4,7 @@ const minInt = 1;
 const maxInt = 100;
 
 const getRandomInt = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
-const isEven = num => !(num & 1);
+const isEven = num => !(num % 2);
 
 const play = () => {
   const name = readlineSync.question('May I have your name? ');
