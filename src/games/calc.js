@@ -17,15 +17,15 @@ const calc = () => {
 
   switch (getRandomInt(minSign, maxSign)) {
     case 1:
-      question = `Question: ${op1}+${op2}`;
+      question = `${op1}+${op2}`;
       answer = String(op1 + op2);
       break;
     case 2:
-      question = `Question: ${op1}-${op2}`;
+      question = `${op1}-${op2}`;
       answer = String(op1 - op2);
       break;
     case 3:
-      question = `Question: ${op1}*${op2}`;
+      question = `${op1}*${op2}`;
       answer = String(op1 * op2);
       break;
     default:
