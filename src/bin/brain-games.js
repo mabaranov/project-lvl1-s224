@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import hello from '..';
+import even from '../games/check-even';
+import calc from '../games/calc';
 
-console.log('Welcome to the Brain Games!\n');
-hello();
+even();
+calc();
