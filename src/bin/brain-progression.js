@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import balance from '../games/progression';
+import progression from '../games/progression';
 
 progression();
