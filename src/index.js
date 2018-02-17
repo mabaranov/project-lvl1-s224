@@ -17,7 +17,7 @@ const play = (game, rule) => {
     if (gameStep.answer === userAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${gameStep.answer}'.\nLet's try again, '${name}'!`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${gameStep.answer}'.\nLet's try again, '${name}'!\n`);
       return;
     }
   }
