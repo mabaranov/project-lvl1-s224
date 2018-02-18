@@ -1,11 +1,10 @@
 import play from '..';
+import { getRandomInt } from '../math';
 
 const minInt = 1;
 const maxInt = 100;
 const lengthSeq = 10;
 const maxStep = 10;
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
 
 const rule = 'What number is missing in this progression?';
 

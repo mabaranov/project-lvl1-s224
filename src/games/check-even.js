@@ -1,10 +1,9 @@
 import play from '..';
+import { getRandomInt, isEven } from '../math';
 
 const minInt = 1;
 const maxInt = 20;
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
-const isEven = num => !(num % 2);
 
 const rule = 'Answer "yes" if number even otherwise answer "no"';
 

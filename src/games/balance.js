@@ -1,15 +1,8 @@
 import play from '..';
+import { getRandomInt, getBalance } from '../math';
 
 const minInt = 1;
 const maxInt = 1000;
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
-export const getBalance = (min, max) => {
-  if (max - min > 1) {
-    return getBalance(min + 1, max - 1);
-  }
-  return { min, max };
-};
 
 const rule = 'Balance the given number.';
 

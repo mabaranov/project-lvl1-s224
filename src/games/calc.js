@@ -1,11 +1,10 @@
 import play from '..';
+import { getRandomInt } from '../math';
 
 const minInt = 1;
 const maxInt = 20;
 const minSign = 1;
 const maxSign = 3;
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * ((max - min) + 1)) + min;
 
 const rule = 'What is the result of the expression?';
 
